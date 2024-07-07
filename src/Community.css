@@ -1,0 +1,97 @@
+/* Community.css */
+
+.community-page {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.community-page h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.latest-campaign {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.latest-campaign p {
+  margin: 10px 0;
+}
+
+.latest-campaign strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.loading {
+  font-style: italic;
+  color: #888;
+}
+
+
+.commborder{
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+/* Community.css */
+
+/* Community.css */
+
+.community_details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.community_details h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.community_details h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #555;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.user-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.user-table strong {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #2c3e50;
+}
+
+.user-table p {
+  font-size: 18px;
+  color: #777;
+}

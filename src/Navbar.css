@@ -1,0 +1,47 @@
+/* Navbar.css */
+
+.nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Make the menu items flexbox */
+  justify-content: flex-end; /* Align menu items to the right */
+}
+
+.menu li {
+  margin-right: 10px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.menu li a:hover {
+  background-color: #555;
+}
+
+/* Styles for Donate button */
+.donate-button a {
+  background-color: #ff7f50; /* Change button background color */
+  border-radius: 5px; /* Add border radius */
+  padding: 5px 10px; /* Adjust padding */
+}
+
+.donate-button a:hover {
+  background-color: #ffa07a; /* Change button background color on hover */
+}

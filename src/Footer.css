@@ -1,0 +1,24 @@
+.footer {
+    border-top: 2px solid #1b1717;
+    background-color: #F5F5F5;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .footer .img1 {
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+  
+  .footer p {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  

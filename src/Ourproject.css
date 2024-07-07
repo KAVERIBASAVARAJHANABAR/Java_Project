@@ -1,0 +1,67 @@
+/* Ourproject.css */
+
+/* Overall container for the Ourproject component */
+.ourproject {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .ourproject h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  /* Error message styling */
+  .ourproject p {
+    color: #ff0000;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  /* Container for the list of campaigns */
+  .campaign-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Individual campaign item styling */
+  .campaign-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Campaign title styling */
+  .campaign-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  /* Campaign details styling */
+  .campaign-item p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  /* Campaign image styling */
+  .campaign-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+    object-fit: cover;
+  }
+  

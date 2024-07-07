@@ -1,0 +1,43 @@
+.text-divs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-align: center;  
+  }
+
+  .text-division {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+  }
+  
+  .text-division:hover {
+    background-color: #e0e0e0;
+  }
+  
+  @media (max-width: 768px) {
+    .text-division {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  .border123 {
+    height: 450px;
+    width: 330px;
+    margin-left: 23px;
+    border: 4px solid rgb(239, 235, 235);
+    border-bottom: 10px solid lightgray;
+    border-right: 10px solid lightgray;
+  }
+
+  .bodyflex{
+    display: flex;
+    flex-direction: row;
+  }

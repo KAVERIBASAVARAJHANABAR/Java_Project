@@ -1,0 +1,50 @@
+.img3
+{
+    height:400px;
+    width:100%;
+}
+.aboutheading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.aboutpara{
+    width: 800px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 360px;
+    text-align: justify;
+}
+.text-divs-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .aboutparas {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .text-divi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .text-divi h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .img4 {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
